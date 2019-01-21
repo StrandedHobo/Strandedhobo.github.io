@@ -51,7 +51,7 @@ p {
   font-size: 50px;
 }
 
-a.active{
+a .active{
   font-size: 50px;
   opacity: 100;
 }
@@ -87,6 +87,16 @@ a.active{
   margin-top: 15px;
 }
 
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px 200px 200px;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    justify-items: stretch;
+    align-items: stretch;
+ }
+
 .about-me {
   position: absolute;
   right: 0;
@@ -101,22 +111,46 @@ a.active{
   margin-bottom: 15px;
 }
 
-.gallery{
-  position: absolute;
-  right: 0;
-  top: 10px;
-  display: none;
-  padding: 0 60px;
+.gallery {
+    position: absolute;
+    right: 0;
+    top: 10px;
+    color: white;
+    padding: 0 80px;
+    display: none;
 }
 
-.gallery .image{
-  width: 29%;
-  margin: 2%;
+.gallery .image {
+    width: 31%;
+    margin: 1%;
+    float: left;
+}
+
+.gallery h1 {
+    text-align: center;
+}
+
+.image img {
+    width: 100%;
+    transition: all ease 0.5s;
+    -webkit-transition: all ease 0.5s;
+    transform: scale(1);
+    -webkit-transform: scale(1);
+}
+
+.image img:hover{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+}
+
+.site a {
+  color: var(--text);
+  text-decoration: none;
+}
+
+.old-sites {
   float: left;
-}
-
-.image img{
-  width: 100%;
+  grid-template-columns: 1fr 1fr;
 }
 
 .contact{
@@ -163,4 +197,21 @@ a.active{
   float: left;
   clear: both;
   margin-top: 25px;
+}
+
+.icon-twitch a {
+  text-decoration: none;
+  color: #6441A4;
+}
+
+.icon-twitter a {
+  color: #1DA1F2;
+}
+
+.icon-yt a {
+  color: #ff0000;
+}
+
+.icon-linkedin a {
+  color: #0077B5;
 }

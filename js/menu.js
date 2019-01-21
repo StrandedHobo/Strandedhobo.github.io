@@ -15,27 +15,27 @@ $(document).ready(function(){
   $contact = $('.contact');
 
   $a.click(function(){
-    $home.fadeIn();
+    $home.fadeIn    ();
     $aboutme.fadeOut();
     $gallery.fadeOut();
     $contact.fadeOut();
   });
   $b.click(function(){
-    $aboutme.fadeIn();
-    $home.fadeOut();
+    $aboutme.fadeIn ();
+    $home.fadeOut   ();
     $gallery.fadeOut();
     $contact.fadeOut();
   });
   $c.click(function(){
-    $gallery.fadeIn();
-    $home.fadeOut();
+    $gallery.fadeIn ();
+    $home.fadeOut   ();
     $aboutme.fadeOut();
     $contact.fadeOut();
   });
   $d.click(function(){
     $contact. fadeIn();
     $aboutme.fadeOut();
-    $home.fadeOut();
+    $home.fadeOut   ();
     $gallery.fadeOut();
   });
 });

@@ -1,0 +1,63 @@
+/*Main styles*/
+
+body {
+  background: url("pictures/battlearcade.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-decoration: none;
+}
+
+span {
+  opacity: 0.50;
+}
+
+
+/*custom styles*/
+
+.body-title {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 100px;
+  opacity: 0.50;
+  color: #f9f9f9;
+  font-weight: 400;
+  transition: .25s;
+  font-size: 80px;
+}
+
+.body-title:hover{
+  font-size: 105px;
+  cursor: pointer;
+  opacity: 1;
+}
+
+.back-to-site {
+  float: left;
+  margin-top: 750px;
+}
+
+.back-to-site a {
+  color: black;
+  text-decoration: none;
+}
+
+
+/*.dropdown {
+    opacity: 0.80;
+    float: right;
+    position: relative;
+    display: inline-block;
+    color: #f9f9f9;
+    font-size: 25px;
+    font-family: impact;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    font-size: 16px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}*/

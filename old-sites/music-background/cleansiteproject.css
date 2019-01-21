@@ -1,0 +1,59 @@
+/*Main styles*/
+
+body {
+  background: url("pictures/man.gif");
+  background-size: auto;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  font-family: 'Monoton';
+  text-decoration: none;
+}
+
+span {
+  opacity: 0.50;
+}
+
+/*Custom styles*/
+h1 a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.body-title {
+  margin-top: 50px;
+  opacity: 0.50;
+  text-align: center;
+  font-size: 100px;
+  color: #f9f9f9;
+  font-weight: 400;
+  transition: .25s;
+}
+
+.body-title:hover{
+  opacity: 1;
+  font-size: 105px;
+  cursor: pointer;
+}
+
+/*.dropdown {
+  font-family: 'Monoton';
+  opacity: 0.80;
+  float: right;
+  position: relative;
+  display: inline-block;
+  color: #f9f9f9;
+  font-size: 25px;
+  font-family: impact;
+}
+
+.dropdown-content {
+  font-family: 'Monoton';
+  display: none;
+  position: absolute;
+  font-size: 20px;
+}
+
+.dropdown:hover .dropdown-content {
+  font-family: 'Monoton';
+    display: block;
+}*/

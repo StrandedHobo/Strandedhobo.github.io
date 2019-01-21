@@ -1,0 +1,66 @@
+/*Main styles*/
+
+body {
+  background: url("pictures/Bike.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  font-family: 'Kumar One Outline', cursive;
+  text-decoration: none;
+}
+
+span {
+  opacity: 0.50;
+}
+
+
+
+/*custom styles*/
+
+.body-title {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 100px;
+  opacity: 0.50;
+  color: #f9f9f9;
+  font-weight: 400;
+  transition: .25s;
+}
+
+.body-title:hover{
+  opacity: 1;
+  font-size: 105px;
+  cursor: pointer;
+}
+
+.back-to-site {
+  float: left;
+  margin-top: 750px;
+}
+
+.back-to-site a {
+  color: black;
+  text-decoration: none;
+}
+
+
+/*.dropdown {
+    opacity: 0.80;
+    float: right;
+    position: relative;
+    display: inline-block;
+    color: #f9f9f9;
+    font-size: 25px;
+    font-family: impact;
+}
+
+.dropdown-content {
+    opacity: 0.80;
+    display: none;
+    position: absolute;
+    font-size: 16px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}*/

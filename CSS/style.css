@@ -21,8 +21,8 @@ p {
 }
 
 .nav {
-  border: 2px solid red;
-  width: 10%;
+  /*border: 2px solid red;*/
+  width: 15%;
   height: auto;
   position: absolute;
   top: 20%;
@@ -39,6 +39,7 @@ p {
   margin: 2px 0;
   float: left;
   display: inline-block;
+  transition: all ease 0.5s;
   color: var(--text);
   line-height: 90px;
   text-align: center;
@@ -80,6 +81,14 @@ a .active{
 }
 
 .home h3{
+  font-size: 28;
+  padding: 5px 0;
+  opacity: 0.6;
+  color: var(--text);
+  margin-top: 15px;
+}
+
+.home p{
   font-size: 28;
   padding: 5px 0;
   opacity: 0.6;

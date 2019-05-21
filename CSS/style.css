@@ -22,7 +22,11 @@ p {
 
 .nav {
   /*border: 2px solid red;*/
+<<<<<<< HEAD
   width: 15%;
+=======
+  width: 30%;
+>>>>>>> parent of 0ce1008... changed??
   height: auto;
   position: absolute;
   top: 20%;
@@ -36,7 +40,7 @@ p {
   font-weight: bold;
   width: 100%;
   height: 90px;
-  margin: 2px 0;
+  margin: 5px 0;
   float: left;
   display: inline-block;
   transition: all ease 0.5s;
@@ -223,18 +227,4 @@ a .active{
 
 .icon-linkedin a {
   color: #0077B5;
-}
-
-.submitted {
-  position: absolute;
-  bottom: 200px;
-  margin-left: 524px;
-  display: none;
-}
-
-.submitted h1{
-  font-size: 30px;
-  padding-right: 90px;
-  border-bottom: 1px var(--text);
-  color: var(--text);
 }

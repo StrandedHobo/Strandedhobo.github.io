@@ -1,11 +1,10 @@
 /*Main styles*/
 
 body {
+  font-family: 'Kumar One Outline', cursive;
   background: url("pictures/Bike.gif");
   background-size: cover;
   background-repeat: no-repeat;
-  overflow: hidden;
-  font-family: 'Kumar One Outline', cursive;
   text-decoration: none;
 }
 

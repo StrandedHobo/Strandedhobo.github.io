@@ -26,8 +26,8 @@ p {
   width: 30%;
   height: auto;
   position: absolute;
-  top: 20%;
-  left: 0;
+  top: 30%;
+  left: 20%;
 }
 
 .nav a{
@@ -43,7 +43,7 @@ p {
   transition: all ease 0.5s;
   color: var(--text);
   line-height: 90px;
-  text-align: center;
+  text-align: left;
   opacity: 0.5;
 }
 
@@ -58,21 +58,17 @@ a .active{
   opacity: 100;
 }
 
-.content{
+.content {
   /*border: 2px solid green;*/
   width: 930px;
   min-height: 500px;
-  height: auto;
+  height: 50%;
   position: absolute;
-  right: 0;
-  top: 10%;
+  right: 15%;
+  top: 25%;
 }
 
-.home{
-  position: absolute;
-  right: 0;
-  bottom: 29px;
-}
+
 
 .home h1{
   font-size: 90px;
@@ -110,7 +106,7 @@ a .active{
 .about-me {
   position: absolute;
   right: 0;
-  bottom: -50px;
+  bottom: 20%;
   padding: 0 60px;
   display: none;
 }
@@ -164,12 +160,12 @@ a .active{
 }
 
 .contact{
+
   position: absolute;
-  right: 0;
-  top: 10px;
+  right: 10%;
+  bottom: 35%;
   padding: 0 60px;
   display: none;
-  margin-top: 200px;
 }
 
 .inputtext{
